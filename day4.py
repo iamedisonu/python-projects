@@ -129,8 +129,24 @@
 #     newlist.append(x)
 
 # print(newlist)
+# def myfunc(n):
+# #   return abs(n - 50)
+
+# # thislist = [100, 50, 65, 82, 23]
+# # thislist.sort(key = myfunc)
+# # print(thislist)
+# list1 = ["a", "b", "c"]
+# list2 = [1, 2, 3]
+
+# list3 = list1 + list2
+# print(list3)
 
 
+y=("hello", "mine")
+x=list(y)
+x.remove("hello")
+y=tuple(x)
+print(y)
 
 
 
