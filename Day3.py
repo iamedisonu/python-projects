@@ -6,7 +6,7 @@ if m=="left":
     
     n=str(input("you come to a lake. there is an island in the middle of the lake. type \"swim\" to swim accross or \"wait\" to wait "))
     if n== "wait":
-        print("which door?")
+        print("which door?") #Here adding more description could be good to make game fun. Concept gainned
         p=str(input("Red or Blue: "))
         if p=="Red":
             print("Burned by fire.\nGame over.")
